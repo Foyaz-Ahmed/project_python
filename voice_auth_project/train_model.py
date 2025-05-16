@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 import os
 
-your_samples = ['known_voices/fz.wav', 'known_voices/test_voice.wav'] #my samples
+your_samples = ['known_voices/fz.wav', 'known_voices/fz_3.wav'] #my samples
 other_samples = ['known_voices/mithu.wav', 'known_voices/mithu1.wav']  #friends samples
 
 X = []
